@@ -1,0 +1,314 @@
+[
+    {
+        "ID": "001ba835-910c-437a-b80e-a35e1c8eab70",
+        "SystemId": "001ba835-910c-437a-b80e-a35e1c8eab60",
+        "IsDeleted": null,
+        "Dependence": 1,
+        "TableColumn": "Ohne",
+        "Name": "Sprache",
+        "Bemerkung": "Bemerkung 1",
+        "AddBy": "System",
+        "AddDate": "2021-01-01T00:00:00",
+        "Items": [
+            {
+                "Name": "Bitte auswählen...",
+                "Aktiv": true,
+                "Index": 0,
+                "RowIndex": 0,
+                "Bemerkung": "Conrol Sprache",
+                "ImageName": null,
+                "AddBy": "System",
+                "AddDate": "2021-01-01T00:00:00",
+                "Tenants": [
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab51"
+                    },
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab52"
+                    }
+                ],
+                "Sprachen": [
+                    {
+                        "ShortCode": "DE",
+                        "FullCode": "de-DE",
+                        "Value1": "Bitte auswählen...",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "ShortCode": "EN",
+                        "FullCode": "en-GB",
+                        "Value1": "Please select...",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    }
+                ],
+                "Parameter": [
+                    {
+                        "IsDeleted": null,
+                        "Name": "useInLanguageSwitcher",
+                        "Value": "false",
+                        "Bemerkung": "Sprache wird in der Sprachauswahl angezeigt",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    }
+                ]
+            },
+            {
+                "Name": "Deutsch",
+                "Aktiv": true,
+                "Index": 1,
+                "RowIndex": 1,
+                "Bemerkung": "Conrol Sprache",
+                "ImageName": null,
+                "AddBy": "System",
+                "AddDate": "2021-01-01T00:00:00",
+                "Tenants": [
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab51"
+                    },
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab52"
+                    }
+                ],
+                "Sprachen": [
+                    {
+                        "ShortCode": "DE",
+                        "FullCode": "de-DE",
+                        "Value1": "Deutsch",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "ShortCode": "EN",
+                        "FullCode": "en-GB",
+                        "Value1": "German",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    }
+                ],
+                "Parameter": [
+                    {
+                        "IsDeleted": null,
+                        "Name": "useInLanguageSwitcher",
+                        "Value": "true",
+                        "Bemerkung": "Sprache wird in der Sprachauswahl angezeigt",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "fullLanguageCode",
+                        "Value": "de-DE",
+                        "Bemerkung": "Full-Lanuage-Code für die deutsche Sprache",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "shortLanguageCode",
+                        "Value": "DE",
+                        "Bemerkung": "Short-Lanuage-Code für die deutsche Sprache",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "ibanPlaceholder",
+                        "Value": "DE00 0000 0000 0000 0000 00",
+                        "Bemerkung": "Platzhalter für die deutsche IBAN",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "ibanMask",
+                        "Value": "[D][E]dd dddd dddd dddd dddd dd",
+                        "Bemerkung": "Maske der deutschen IBAN sowohl für das Eingabefeld, also auch für die Validierung",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "bicPlaceholder",
+                        "Value": "XXXXDEXXXXX",
+                        "Bemerkung": "Platzhalter für die deutsche BIC",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "bicMask",
+                        "Value": "AAAA[D][E]WWWWW",
+                        "Bemerkung": "Maske der deutschen BIC sowohl für das Eingabefeld, also auch für die Validierung",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    }
+                ]
+            },
+            {
+                "Name": "Englisch",
+                "Aktiv": true,
+                "Index": 2,
+                "RowIndex": 2,
+                "Bemerkung": "Conrol Sprache",
+                "ImageName": null,
+                "AddBy": "System",
+                "AddDate": "2021-01-01T00:00:00",
+                "Tenants": [
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab51"
+                    },
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab52"
+                    }
+                ],
+                "Sprachen": [
+                    {
+                        "ShortCode": "DE",
+                        "FullCode": "de-DE",
+                        "Value1": "Englisch",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "ShortCode": "EN",
+                        "FullCode": "en-GB",
+                        "Value1": "English",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    }
+                ],
+                "Parameter": [
+                    {
+                        "IsDeleted": null,
+                        "Name": "useInLanguageSwitcher",
+                        "Value": "true",
+                        "Bemerkung": "Sprache wird in der Sprachauswahl angezeigt",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "fullLanguageCode",
+                        "Value": "en-GB",
+                        "Bemerkung": "Full-Lanuage-Code für die englische Sprache",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "shortLanguageCode",
+                        "Value": "GB",
+                        "Bemerkung": "Short-Lanuage-Code für die englische Sprache",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "ibanPlaceholder",
+                        "Value": "GB00 0000 0000 0000 0000 00",
+                        "Bemerkung": "Platzhalter für die englische IBAN",
+                        "AddBy": "System"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "ibanMask",
+                        "Value": "[G][B]dd dddd dddd dddd dddd dd",
+                        "Bemerkung": "Maske der englischen IBAN sowohl für das Eingabefeld, also auch für die Validierung",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "bicPlaceholder",
+                        "Value": "XXXXGBXXXXX",
+                        "Bemerkung": "Platzhalter für die englische BIC",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    },
+                    {
+                        "IsDeleted": null,
+                        "Name": "bicMask",
+                        "Value": "AAAA[G][B]WWWWW",
+                        "Bemerkung": "Maske der englischen BIC sowohl für das Eingabefeld, also auch für die Validierung",
+                        "AddBy": "System",
+                        "AddDate": "2021-01-01T00:00:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "001ba835-910c-437a-b80e-a35e1c8eab71",
+        "SystemId": "001ba835-910c-437a-b80e-a35e1c8eab61",
+        "NAME": "Anlagenteilung",
+        "IsDeleted": null,
+        "Dependence": 1,
+        "Target": "Ohne",
+        "Name": "Anlagenteilung",
+        "Bemerkung": "Bemerkung 2",
+        "AddBy": "System",
+        "AddDate": "2021-01-01T00:00:00",
+        "Items": [
+            {
+                "Name": "Bitte auswählen...",
+                "Aktiv": true,
+                "Index": 0,
+                "RowIndex": 0,
+                "Bemerkung": "Conrol Anlagenteilung",
+                "ImageName": null,
+                "AddBy": "System",
+                "AddDate": "2021-01-01T00:00:00",
+                "Tenants": [
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab51",
+                        "Name": "mobileGlas"
+                    },
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab52",
+                        "Name": "HFB"
+                    }
+                ]
+            },
+            {
+                "Name": "Ohne Anlagenteilung",
+                "Aktiv": true,
+                "Index": 1,
+                "RowIndex": 1,
+                "Bemerkung": "Conrol Anlagenteilung",
+                "ImageName": null,
+                "AddBy": "System",
+                "AddDate": "2021-01-01T00:00:00",
+                "Tenants": [
+                    {
+                        "ID": "37a853a9-e94d-4ab0-bc16-05af0e610d60",
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab51"
+                    },
+                    {
+                        "ID": "37a853a9-e94d-4ab0-bc16-05af0e610d61",
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab52"
+                    }
+                ]
+            },
+            {
+                "Name": "Mit Anlagenteilung",
+                "Aktiv": true,
+                "Index": 2,
+                "RowIndex": 2,
+                "Bemerkung": "Conrol Anlagenteilung",
+                "ImageName": null,
+                "AddBy": "System",
+                "AddDate": "2021-01-01T00:00:00",
+                "Tenants": [
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab51"
+                    },
+                    {
+                        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab52"
+                    }
+                ]
+            }
+        ]
+    }
+]

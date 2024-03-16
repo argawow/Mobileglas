@@ -1,0 +1,12 @@
+[
+    {
+        "ID": "37a853a9-e94d-4ab0-bc16-05af0e610d60",
+        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab51",
+        "Name": "mobileGlas"
+    },
+    {
+        "ID": "075253b1-b6f5-416c-aad3-6e81159fe5df",
+        "TenantId": "001ba835-910c-437a-b80e-a35e1c8eab52",
+        "Name": "hfb"
+    }
+]
