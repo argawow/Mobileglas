@@ -4,7 +4,7 @@ using Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Entities;
 
-namespace ControlService.Controllers
+namespace SystemService.Controllers
 {
     [ApiController]
     [Route("api/controls")]

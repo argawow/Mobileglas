@@ -1,5 +1,4 @@
-
-namespace ControlService.DTOs
+namespace Infrastructure.DTOs
 {
     public class LockabelDto
     {

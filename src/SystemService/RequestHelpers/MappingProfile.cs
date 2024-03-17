@@ -1,7 +1,7 @@
 using AutoMapper;
 using ControlService.DTOs;
 
-namespace ControlService.RequestHelpers
+namespace SystemService.RequestHelpers
 {
     public class MappingProfile : Profile
     {

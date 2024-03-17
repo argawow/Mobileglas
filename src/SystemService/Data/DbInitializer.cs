@@ -2,7 +2,7 @@
 using MongoDB.Driver;
 using MongoDB.Entities;
 
-namespace ControlService.Entities;
+namespace SystemService.Entities;
 
 public class DbInitializer
 {

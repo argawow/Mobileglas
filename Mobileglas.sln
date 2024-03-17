@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65E5C996-C3DF-428E-8CBC-4D1118E2028C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlService", "src\ControlService\ControlService.csproj", "{CBD0EA3D-8B05-4161-88D2-E52373CE948A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemService", "src\SystemService\SystemService.csproj", "{CBD0EA3D-8B05-4161-88D2-E52373CE948A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{3C41EF72-21AB-403C-881E-D73F56F98CF8}"
 EndProject

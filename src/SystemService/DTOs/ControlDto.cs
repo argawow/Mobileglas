@@ -1,3 +1,4 @@
+using Infrastructure.DTOs;
 
 namespace ControlService.DTOs
 {
