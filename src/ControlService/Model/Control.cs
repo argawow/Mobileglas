@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ControlService.Controllers;
+using Infrastructure.Interface;
 using MongoDB.Entities;
 
-public class Control : Entity
+public class Control : Entity, ILockableEntity
 {
     [Required]
     [StringLength(100)]
@@ -24,6 +26,26 @@ public class Control : Entity
 
     public string EditBy { get; set; }
     public DateTime? EditDate { get; set; }
+
+    [StringLength(450)]
+    public string Bemerkung { get; set; }
+
+
+    //ILockableEntity
+    public bool IsLocked { get; set; }
+    public string LockedByUserId { get; set; }
+    public string LockedByUserEmail { get; set; }
+    public DateTime? LockedDate { get; set; }
+
+    public void EndEdit()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void StartEdit(string userId, string userEmail)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 public class Item : Entity
@@ -58,6 +80,22 @@ public class Item : Entity
 
     public string EditBy { get; set; }
     public DateTime? EditDate { get; set; }
+
+    //ILockableEntity
+    public bool IsLocked { get; set; }
+    public string LockedByUserId { get; set; }
+    public string LockedByUserEmail { get; set; }
+    public DateTime? LockedDate { get; set; }
+
+    public void EndEdit()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void StartEdit(string userId, string userEmail)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 public class Sprache
